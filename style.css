@@ -1,0 +1,172 @@
+/*css resets*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+#main {
+	width: 1070px;
+	text-align: center;
+	margin: 140px auto 100px auto;
+}
+
+#searchbox {
+	width: 550px;
+	height: 27px;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	font-family: Arial, Verdana, Sans-serif;
+	padding-left: 10px;
+	margin: 22px 0px 18px 0px;
+}
+
+#searchbox:hover {
+    border: 1px solid #ababab;
+}
+
+#searchbox:focus {
+border: 1px solid #3399ff;
+}
+
+#form-button {
+	border: 1px solid #ccc;
+	font: bold .7em Arial, Verdana, Sans-serif;
+	color: #404040;
+	padding: 5px 7px 5px 7px;
+	background-color: #F3F3F3;
+	border-radius: 2px;
+	margin: 0px 9px 80px 9px;
+}
+
+#form-button:hover {
+	border: 1px solid #b8b8b8;
+	box-shadow: 0px 1px 1px #b8b8b8;
+}
+
+.login-button {
+	display: inline-block;
+	border: 1px solid #4385F4;
+	font: bold 1em Arial, Verdana, Sans-serif;
+	color: #FFF;
+	padding: 6px 12px 6px 12px;
+	background-color: #4486F8;
+	border-radius: 2px;
+	margin: 0px 20px 0px 9px;
+}
+
+.login-button:active {
+	border: 1px solid #3E79DD;
+	background-color: #3E79DD;
+	box-shadow: 0px 3px 1px #3367C2 inset;
+}
+
+#topnav {
+	width: 1045px;
+	margin: 0px 0px 0px auto;
+	padding-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+li {
+    display: inline;
+}
+
+.topnav-links {
+	text-align: right;
+}
+
+.blocks-link {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("http://ssl.gstatic.com/gb/images/i1_71651352.png");
+    background-position: -326px -52px;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+
+.blocks-link:hover {
+    opacity: 1;
+}
+
+.nav a {
+    font: normal .8em Arial, Verdana, Sans-serif;
+	color: #404040;
+	margin: 0px 13px 0px 0px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+html {
+	height: 100%;
+}
+body {
+	position: relative;
+	padding-bottom: 0rem;
+	min-height: 100%;
+}
+
+#footer {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	background-color: #F3F3F3;
+	border-top: 1px solid #ccc;
+	height:40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.footernav-left {
+	width: 300px;
+	margin: 0px;
+	padding: 10px 0px 0px 15px;
+	float: left;
+}
+
+.footernav-right {
+	width: 300px;
+	margin: 0px;
+	padding: 10px 15px 0px 0px;
+	float: right;
+	text-align: right;
+}
+
+.footer a {
+    font: normal .8em Arial, Verdana, Sans-serif;
+	color: #666666;
+	margin: 0px 15px 0px 15px;
+	text-decoration: none;
+	height: 40px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
